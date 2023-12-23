@@ -2,59 +2,68 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Vasudeva Ramaswamy
     - name: Languages
-      value: English, German
+      value: English, Hindi, Tamil
+    - name: Coding Languages
+      value: Julia, Python, Mathematica, Stata, Matlab
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: PhD, Economics
+      institution: American University, Washington DC, USA
+      year: 2023
+      # description:
+      #   - Macroeconomics and Monetary Policy
+      #   - Description 2.
+      #   - title: Description 3.
+      #     contents:
+      #       - Sub-description 1.
+      #       - Sub-description 2.
+    - title: Master of Science in Public Policy and Management
+      institution: Carnegie Mellon University, Pittsburgh, PA, USA
+      year: 2009
+      # description:
+      #   - Description 1.
+      #   - Description 2.
+    - title: Bachelor of Business Administration
+      institution: University of Missouri - Kansas City, Kansas City, MO, USA
+      year: 2006
+      # description:
+      #   - Description 1.
+      #   - Description 2.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Post Doctoral Fellow
+      institution: Institute for Macroeconomic Policy Analysis (IMPA), American University, Washington DC, USA
+      year: 2023-now
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Developing a large-scale heterogeneous agent model to analyze the effects of fiscal policy in the presence of market power
+        # - Description 2.
+        # - title: Description 3.
+        #   contents:
+        #     - Sub-description 1.
+        #     - Sub-description 2.
+    
+    - title: Consultant, Social Protection & Jobs
+      institution: World Bank Group, Washington, D.C., USA
+      year: Jun-Aug 2019,<br>Jun-Aug 2020
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Impact evaluation of pilot program aimed at improving job outcomes for smallholders in Mozambique
+        
+    - title: Senior Manager, Strategy \& Network Planning
+      institution: Starbucks India, Mumbai, India
+      year: 2014-2017
+      description:
+        - Helped build and led network planning strategy Developed a GIS catchment-based model to estimate demand and identify new store opportunities.
+        - Led key strategic projects Project-managed the design, development and launch of a strategic new format of store; led strategic partnership with Vistara Airlines.	
+      
+    - title: Strategy \& Technology Consultant
+      institution: Boston Analytics, Mumbai, India
+      year: 2013-2014
       description:
 
     - title: Associate Professor of Theoretical Physics
@@ -71,13 +80,27 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+    - title: Frank	M.	Tamagna	Education	Endowment	Fellowship
+      year: 2020
+      institution: American University
+    
+    - title: Graduate Student Fellowship
+      year: 2017-2021
+      institution: American University
+    
+    - title: Wigmore Fund Fellowship
+      year: 2007-2009
+      institution: Carnegie Mellon University
+    
+    - title: MSPPM Scholarship
+      year: 2007-2009
+      institution: Carnegie Mellon University
+
+    - title: Chancellor's Non-resident Award
+      year: 2002-2006
+      institution: University of Missouri - Kansas City
+    
+    
 
 - title: Academic Interests
   type: nested_list

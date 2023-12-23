@@ -2,17 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='www.american.edu'>Affiliations</a>
+subtitle: Room 115, Kreeger Building | American University | Washington D.C. 20016
 
 profile:
-  align: right
-  image: temp_profile_pic.png
+  align: center
+  image: temp_profile_pic.jpeg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Room 115, Kreeger Building</p>
-    <p>American University</p>
-    <p>Washington D.C., 20016</p>
-
+    
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"

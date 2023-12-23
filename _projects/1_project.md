@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: Log Linearizer
+description: SymPy-based code package to log-linearize a system of dynamic equations (by first-order Taylor Series approximation). 
 img: assets/img/12.jpg
+redirect: https://github.com/vasudeva-ram/LogLinearizer
 importance: 1
 category: work
-related_publications: einstein1956investigations, einstein1950meaning
 ---
 
 Every project has a beautiful feature showcase page.
