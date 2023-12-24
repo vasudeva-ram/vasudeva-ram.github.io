@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Julia SSJ
-description: Solving HANK models using the Sequence Space Jacobian method (Auclert et. al. 2021) in Julia
+description: Solving HANK models using the Sequence Space Jacobian method in Julia
 img: assets/img/3.jpg
 importance: 2
 category: work

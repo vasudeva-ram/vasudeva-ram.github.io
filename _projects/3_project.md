@@ -1,9 +1,8 @@
 ---
 layout: page
 title: Filters
-description: a project that redirects to another website
+description: Code for filters often used in Macroeconomics (Hamilton, Band-pass, HP etc.)
 img: assets/img/7.jpg
-redirect: https://unsplash.com
 importance: 3
 category: work
 ---

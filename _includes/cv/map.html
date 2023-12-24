@@ -3,7 +3,7 @@
       <tr>
         <td class="p-1 pr-2 font-weight-bold"><b>{{ content.name }}</b></td>
         {% if content.value %}
-        <td class="p-1 pl-2 font-weight-light text">{{ content.value }}</td>
+        <td class="p-1 pl-2 font-weight-light text">{{ content.value | raw }}</td>
         {% endif %}
         {% if content.links %}
         <td class="p-1 pl-2 font-weight-light text">

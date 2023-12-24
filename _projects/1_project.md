@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Log Linearizer
-description: SymPy-based code package to log-linearize a system of dynamic equations (by first-order Taylor Series approximation). 
+description: SymPy-based code package to log-linearize a system of dynamic equations. 
 img: assets/img/12.jpg
 redirect: https://github.com/vasudeva-ram/LogLinearizer
 importance: 1

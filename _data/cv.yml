@@ -34,49 +34,6 @@
       #   - Description 1.
       #   - Description 2.
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Post Doctoral Fellow
-      institution: Institute for Macroeconomic Policy Analysis (IMPA), American University, Washington DC, USA
-      year: 2023-now
-      description:
-        - Developing a large-scale heterogeneous agent model to analyze the effects of fiscal policy in the presence of market power
-        # - Description 2.
-        # - title: Description 3.
-        #   contents:
-        #     - Sub-description 1.
-        #     - Sub-description 2.
-    
-    - title: Consultant, Social Protection & Jobs
-      institution: World Bank Group, Washington, D.C., USA
-      year: Jun-Aug 2019,<br>Jun-Aug 2020
-      description:
-        - Impact evaluation of pilot program aimed at improving job outcomes for smallholders in Mozambique
-        
-    - title: Senior Manager, Strategy \& Network Planning
-      institution: Starbucks India, Mumbai, India
-      year: 2014-2017
-      description:
-        - Helped build and led network planning strategy Developed a GIS catchment-based model to estimate demand and identify new store opportunities.
-        - Led key strategic projects Project-managed the design, development and launch of a strategic new format of store; led strategic partnership with Vistara Airlines.	
-      
-    - title: Strategy \& Technology Consultant
-      institution: Boston Analytics, Mumbai, India
-      year: 2013-2014
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
 - title: Honors and Awards
   type: time_table
   contents:
@@ -100,8 +57,73 @@
       year: 2002-2006
       institution: University of Missouri - Kansas City
     
+  
+- title: Experience
+  type: time_table
+  contents:
+    - title: Post Doctoral Fellow
+      institution: Institute for Macroeconomic & Policy Analysis (IMPA), American University, Washington DC, USA
+      year: 2023-now
+      description:
+        - Developing a large-scale heterogeneous agent model to analyze the effects of fiscal policy in the presence of market power
+        # - Description 2.
+        # - title: Description 3.
+        #   contents:
+        #     - Sub-description 1.
+        #     - Sub-description 2.
     
+    - title: Consultant, Social Protection & Jobs
+      institution: World Bank Group, Washington, D.C., USA
+      year: Jun-Aug<br>2019, 2020
+      description:
+        - Supported impact evaluation of pilot program aimed at improving job outcomes for smallholders in Mozambique
+        - Constructed panel dataset from baseline, midline and endline household surveys, conducting extensive data quality checks, and using econometric techniques to address attrition and measurement error
+        - Generated estimates of household income, expenditure, wealth, agricultural input use, and other key variables of interest, and conducted descriptive and econometric analysis to assess program impact
+        
+    - title: Senior Manager, Strategy & Network Planning
+      institution: Starbucks India, Mumbai, India
+      year: 2014-2017
+      description:
+        - Helped build and led network planning strategy Developed a GIS catchment-based model to estimate demand and identify new store opportunities.
+        - Led key strategic projects Project-managed the design, development and launch of a strategic new format of store; led strategic partnership with Vistara Airlines.	
+      
+    - title: Strategy & Technology Consultant
+      institution: Boston Analytics, Mumbai, India
+      year: 2013-2014
+      description:
+      - title: Client - Department of Economic Development, Middle Eastern country
+        contents:
+          - Designed the organizational structure of the newly established national industrial development bureau.
+      - title: Client - Leading US manufacturer of networking equipment
+        contents:
+        - Developed go-to-market strategy to pursue “transformational opportunities” worth $1.5 billion in Indonesia.
 
+    - title: Strategy & Operations Consultant
+      institution: Deloitte Consulting, Boston, MA, USA
+      year: 2009-2011
+      description:
+      - title: Client - Department of Public Welfare - Commonwealth of Pennsylvania
+        contents:
+        - Designed and executed rollout of new provider monitoring process, managing 60 coordination organizations, 8,000 healthcare providers, and 25,000 service recipients across the state.
+      - title: Client - Department of Revenue - Commonwealth of Massachusetts
+        contents: 
+        - Helped develop Request for Responses to acquire a new integrated transaction processing system that met the needs and vision of the Child Support Enforcement Division and incorporated national best practices.
+
+
+- title: Teaching
+  type: map
+  contents:
+    - name: Econ 802
+      value: Macroeconomics II (Ph.D.)<br><i>Teaching Assistant, S2019, S2020</i>
+    - name: Math 705
+      value: Mathematical Economic Analysis (Ph.D.)<br><i>Teaching Assistant, F2019, S2020</i>
+    - name: Econ 672
+      value: MA/Ph.D. International Economics & Finance<br><i>Teaching Assistant, S2021</i>
+    - name: Econ 650
+      value: Agent-based Computational Economics<br><i>Teaching Assistant, Sum2020, F2020</i>
+    - name: Econ 301
+      value: Intermediate Macroeconomics<br><i>Teaching Assistant, F2018, S2019, F2019, S2020</i>
+      
 - title: Academic Interests
   type: nested_list
   contents:
