@@ -3,7 +3,7 @@ layout: page
 title: Log Linearizer
 description: SymPy-based code package to log-linearize a system of dynamic equations. 
 img: assets/img/12.jpg
-redirect: https://github.com/vasudeva-ram/LogLinearizer
+redirect: https://github.com/vasudeva-ram/LogLinearization
 importance: 1
 category: work
 ---
