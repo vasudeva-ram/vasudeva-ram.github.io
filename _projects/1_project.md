@@ -23,27 +23,27 @@ for eqn in eqns:
 ```
 returns
 
-$\displaystyle \hat{W}_t = \hat{{C}}_t {\sigma} + \hat{{N}}_t {\phi}$
+$$\displaystyle \hat{W}_t = \hat{C}_t {\sigma} + \hat{N}_t {\phi}$$
 
 
 
-$\displaystyle - \hat{R}^n_t = \hat{C_t} {\sigma} - \hat{C_{t+1}} {\sigma} - \hat{{\Pi}}_{t+1}$
+$$\displaystyle - \hat{R}^n_t = \hat{C_t} {\sigma} - \hat{C}_{t+1} {\sigma} - \hat{\Pi}_{t+1}$$
 
 
 
-$\displaystyle \hat{A}_t + \hat{{N}}_t \left(1 - {\alpha}\right) = \hat{{C}}_t$
+$$\displaystyle \hat{A}_t + \hat{N}_t \left(1 - {\alpha}\right) = \hat{C}_t$$
 
 
 
-$\displaystyle \hat{W}_t = \hat{{A}}_t - \hat{{N}}_t {\alpha}$
+$$\displaystyle \hat{W}_t = \hat{A}_t - \hat{N}_t {\alpha}$$
 
 
 
-$\displaystyle \hat{R^r_t} = \hat{R}^n_t - \hat{{\Pi}}_{t+1}$
+$$\displaystyle \hat{R}^r_t = \hat{R}^n_t - \hat{\Pi}_{t+1}$$
 
 
 
-$\displaystyle \hat{R^n_t} = \frac{\bar{{\Pi}}^{{\phi_{\pi}}} \hat{\Pi_t} {\phi_{\pi}} + \bar{{\varepsilon_m}} \hat{\varepsilon^m_t} {\beta}}{\bar{{\Pi}}^{{\phi_{\pi}}} + \bar{{\varepsilon_m}} {\beta}}$
+$$\displaystyle \hat{R}^n_t = \frac{\bar{\Pi}^{\phi_{\pi}} \hat{\Pi_t} {\phi_{\pi}} + \bar{\varepsilon_m} \hat{\varepsilon}^m_t {\beta}}{\bar{\Pi}^{\phi_{\pi}} + \bar{\varepsilon_m} {\beta}}$$
 
 
 
@@ -66,6 +66,6 @@ display(eqn.loglin())
 ```
 returns
 
-$\displaystyle - \hat{R_t} = \hat{C_t} \sigma - \hat{C}_{t+1} \sigma - \hat{\Pi}_{t+1}$
+$$\displaystyle - \hat{R_t} = \hat{C_t} \sigma - \hat{C}_{t+1} \sigma - \hat{\Pi}_{t+1}$$
 
 Check it out, and please feel free to leave comments.
