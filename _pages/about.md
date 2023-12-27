@@ -16,7 +16,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Postdoctoral Fellow at [American University](https://www.american.edu), working on monetary and fiscal policy. I am particularly interested in inequality and how policy changes affect the distribution of income and wealth across the economy.
+I am a Postdoctoral Fellow at [American University](https://www.american.edu), working on monetary and fiscal policy. I am particularly interested in inequality and how policy changes affect the distribution of income and wealth across the economy. 
 
 ---
 <!--  Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
