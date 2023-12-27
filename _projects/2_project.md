@@ -2,80 +2,44 @@
 layout: page
 title: Julia SSJ
 description: Solving HANK models using the Sequence Space Jacobian method in Julia
-img: assets/img/3.jpg
+img: assets/img/jacobian.svg
 importance: 2
 category: work
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/IRFs.svg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/jacobian.svg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/fakenews.svg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Output for a basic Krussell-Smith Model: IRFs, the Jacobian, and the Fake News Matrix.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+The purpose of this project is to create a series of teaching materials for solving HANK models in Julia using the Sequence Space Jacobian method ([Auclert, Bardoczy, Rognlie and Straub](https://web.stanford.edu/~aauclert/sequence_space_jacobian.pdf)).
+The easy part was writing the code in Julia to solve HANK models using the SSJ method.
+Writing the learning material, on the other hand, is taking forever.
+Too many projects competing for my time, sadly.
+
+To be clear, I think the paper is very clear, well written and easy to follow.
+Plus, the Shade-Econ team has done very well to put out training materials on using their [package](https://github.com/shade-econ/sequence-jacobian).
+I intend my materials to be for students who are relatively new to the literature and are not fully familiar with the prerequisites for using the SSJ method.
+For example, the SSJ method assumes the availability of a transition matrix $\Lambda$ that represents the law of motion for the wealth ditribution of the household sector. 
+But where does this come from? 
+How does one _actually_ implement the Young (2010) lottery method to obtain this matrix?
+Or how does one implement the Carroll (2006) endogenous gridpoint method to obtain the policy functions?
+These are the questions that I find students ask most often, and which I hope to answer in detail in these materials.
+
+When I finally get to it, that is.
+
+In the meantime, the link to the code in Julia itself is available [here](https://github.com/vasudeva-ram/Julia-SSJ).
 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}

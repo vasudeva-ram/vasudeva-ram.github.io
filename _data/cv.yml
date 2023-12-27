@@ -14,48 +14,48 @@
     - title: PhD, Economics
       institution: American University, Washington DC, USA
       year: 2023
-      # description:
-      #   - Macroeconomics and Monetary Policy
-      #   - Description 2.
-      #   - title: Description 3.
-      #     contents:
-      #       - Sub-description 1.
-      #       - Sub-description 2.
+      description:
+        - Frank M. Tamagna Education Endowment Fellowship, 2020
+        - Graduate Student Fellowship, 2017-2021
+        # - title: Description 3.
+        #   contents:
+        #     - Sub-description 1.
+        #     - Sub-description 2.
     - title: Master of Science in Public Policy and Management
       institution: Carnegie Mellon University, Pittsburgh, PA, USA
       year: 2009
-      # description:
-      #   - Description 1.
-      #   - Description 2.
+      description:
+        - Wigmore Fund Fellowship, 2007-2009
+        - MSPPM Scholarship, 2007-2009
     - title: Bachelor of Business Administration
       institution: University of Missouri - Kansas City, Kansas City, MO, USA
       year: 2006
-      # description:
-      #   - Description 1.
-      #   - Description 2.
+      description:
+        - Chancellor's Non-resident Award, 2002-2006
+        # - Description 2.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - title: Frank	M.	Tamagna	Education	Endowment	Fellowship
-      year: 2020
-      institution: American University
+# - title: Honors and Awards
+#   type: time_table
+#   contents:
+#     - title: Frank M. Tamagna Education Endowment Fellowship
+#       year: 2020
+#       institution: American University
     
-    - title: Graduate Student Fellowship
-      year: 2017-2021
-      institution: American University
+#     - title: Graduate Student Fellowship
+#       year: 2017-2021
+#       institution: American University
     
-    - title: Wigmore Fund Fellowship
-      year: 2007-2009
-      institution: Carnegie Mellon University
+#     - title: Wigmore Fund Fellowship
+#       year: 2007-2009
+#       institution: Carnegie Mellon University
     
-    - title: MSPPM Scholarship
-      year: 2007-2009
-      institution: Carnegie Mellon University
+#     - title: MSPPM Scholarship
+#       year: 2007-2009
+#       institution: Carnegie Mellon University
 
-    - title: Chancellor's Non-resident Award
-      year: 2002-2006
-      institution: University of Missouri - Kansas City
+#     - title: Chancellor's Non-resident Award
+#       year: 2002-2006
+#       institution: University of Missouri - Kansas City
     
   
 - title: Experience
@@ -124,19 +124,3 @@
     - name: Econ 301
       value: Intermediate Macroeconomics<br><i>Teaching Assistant, F2018, S2019, F2019, S2020</i>
       
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
