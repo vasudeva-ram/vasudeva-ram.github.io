@@ -5,6 +5,7 @@ description: Code for filters often used in Macroeconomics (Hamilton, Band-pass,
 img: assets/img/7.jpg
 importance: 3
 category: work
+giscus_comments: false
 ---
 
 Work in progress!

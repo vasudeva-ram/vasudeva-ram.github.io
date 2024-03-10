@@ -5,6 +5,7 @@ description: SymPy-based code package to log-linearize a system of dynamic equat
 img: assets/img/LogLin.png
 importance: 1
 category: work
+giscus_comments: false
 ---
 
 Hate the tedium of log-linearizing your model? 

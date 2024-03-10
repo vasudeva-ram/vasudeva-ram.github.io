@@ -5,7 +5,7 @@ description: Solving HANK models using the Sequence Space Jacobian method in Jul
 img: assets/img/jacobian.svg
 importance: 2
 category: work
-giscus_comments: true
+giscus_comments: false
 ---
 
 
