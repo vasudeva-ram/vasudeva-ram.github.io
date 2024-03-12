@@ -10,7 +10,7 @@ giscus_comments: false
 
 Hate the tedium of log-linearizing your model? 
 So do I. 
-Feel free to use my SymPy-based code to automatically log-linearize your nonlinear dynamic equations, [LogLinearization](https://github.com/vasudeva-ram/LogLinearizer).
+Feel free to use my SymPy-based code to automatically log-linearize your nonlinear dynamic equations, [LogLinearization](https://github.com/vasudeva-ram/LogLinearization).
 
 Got an entire non-linear model in a DYNARE .mod file?
 Log-linearize it in two lines of code.
