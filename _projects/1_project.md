@@ -4,7 +4,7 @@ title: Log Linearizer
 description: SymPy-based code package to log-linearize a system of dynamic equations. 
 img: assets/img/LogLin.png
 importance: 1
-category: work
+category: fun
 giscus_comments: false
 ---
 
@@ -56,10 +56,10 @@ That's fast and easy too!
 ```python
 import LogLinearization as ll
 
-euler = '1/R=betta*(C(+1)/C)^(-siggma)/Pi(+1)'
-vardict = {'C':'C', 'R':'R', 'Pi':r'\Pi'}
-paramdict ={'siggma':r'\sigma', 'betta':r'\beta'}
-ssdict = {'Pi':1};
+euler = '1/R=betta*(C(+1)/C)^(-siggma)/Pi(+1)' # the equation you want to log-linearize
+vardict = {'C':'C', 'R':'R', 'Pi':r'\Pi'} # dictionary of endogenous variables, with their TeX representations
+paramdict ={'siggma':r'\sigma', 'betta':r'\beta'} # dictionary of parameters, with their TeX representations
+ssdict = {'Pi':1}; # dictionary of any simple steady state values
 
 econ = ll.ModEconomy(vardict, paramdict, ssdict)
 eqn = ll.Equation(euler, econ)
