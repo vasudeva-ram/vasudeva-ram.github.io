@@ -30,7 +30,7 @@ Writing the learning material, on the other hand, is taking forever.
 Too many projects competing for my time, sadly.
 
 To be clear, I think the paper is very well written and easy to follow.
-Plus, the Shade-Econ team has done very well to put out training materials on using their [package](https://github.com/shade-econ/sequence-jacobian).
+Plus, the Shade-Econ team has done very well to put out Python-based training materials on using their [package](https://github.com/shade-econ/sequence-jacobian).
 I intend my materials to be for students who are relatively new to the literature and are not fully familiar with the prerequisites for using the SSJ method.
 For example, the SSJ method assumes the availability of a transition matrix $$\Lambda$$ that represents the law of motion for the wealth ditribution of the household sector. 
 But where does this come from? 
