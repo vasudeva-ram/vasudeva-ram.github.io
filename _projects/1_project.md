@@ -4,7 +4,7 @@ title: Log Linearizer
 description: SymPy-based code package to log-linearize a system of dynamic equations. 
 img: assets/img/LogLin.png
 importance: 1
-category: fun
+category: coding projects
 giscus_comments: false
 ---
 

@@ -136,6 +136,15 @@
           {{ entry.note | strip }}
         </div>
 
+        <!-- Add this new section for additional_info -->
+        {% if entry.additional_info %}
+        <div class="additional-info">
+          <em><b>{{ entry.additional_info }}</b></em>
+        </div>
+        {% endif %}
+        
+      
+
           <!-- Links/Buttons -->
           <div class="links">
           {%- if entry.abstract %}

@@ -4,7 +4,7 @@ title: Newton-Raphson HANK
 description: Perfect foresight solution to HANK models using Automatic Differentiation
 img: assets/img/JVP_Large.png
 importance: 3
-category: fun
+category: coding projects
 giscus_comments: false
 ---
 

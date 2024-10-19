@@ -4,7 +4,7 @@ title: Julia SSJ
 description: Solving HANK models using the Sequence Space Jacobian method in Julia
 img: assets/img/jacobian.svg
 importance: 2
-category: fun
+category: coding projects
 giscus_comments: false
 ---
 
