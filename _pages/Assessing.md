@@ -27,7 +27,7 @@ Burns, T. (June 11, 2024). <a href="https://thehill.com/homenews/4715574-bidens-
 
 </p>
 
-<p style="margin-bottom: 10px;margin-left: 20px;">
+<p style="margin-bottom: 30px;margin-left: 20px;">
 Becker, B. (June 10, 2024).
 <a href="https://tinyurl.com/PoliticoCoverage">"Will there be reaching across the aisle?"</a>, Politico.
 </p>

@@ -14,6 +14,6 @@ Ignacio Gonzalez, Juan Montecino, and <u>Vasudeva Ramaswamy</u>
 <b>Overview:</b> 
 </p>
 
-<p style="margin-bottom: 10px;">
+<p style="margin-bottom: 30px;">
 This technical note first describes key differences between estimating the impact of a change in tax policy at the firm (microeconomic) level and at the overall (macroeconomic) level. It then explains how macroeconomic models are used to infer the overall effects of policy reforms and how alternative assumptions&mdash;such as the presence of market power&mdash;influence these estimates.
 </p>
