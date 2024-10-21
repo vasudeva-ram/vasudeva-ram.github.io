@@ -4,7 +4,7 @@ permalink: /policy/
 title: policy
 description: collection of policy reports published, media coverage, etc.
 nav: true
-nav_order: 3
+nav_order: 2
 
 profiles:
   # if you want to include more than one profile, just replicate the following block

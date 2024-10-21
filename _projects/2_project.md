@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Julia SSJ
-description: Solving HANK models using the Sequence Space Jacobian method in Julia
+title: Sequence Space Jacobian
+description: Julia-based implementation of the Auclert et. al. (2020) method for solving HANK models
 img: assets/img/jacobian.svg
 importance: 2
-category: coding projects
+category: heterogeneous agent macro
 giscus_comments: false
 ---
 

@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A collection of work-in-progress projects
+title: coding
+permalink: /coding/
+description: current coding projects and associated github repositories
 nav: true
-nav_order: 2
-display_categories: [policy work, coding projects]
+nav_order: 3
+display_categories: [heterogeneous agent macro, other stuff]
 horizontal: false
 ---
 
@@ -16,11 +16,27 @@ horizontal: false
   {%- for category in page.display_categories %}
   <h2 class="category">{{ category }}</h2>
 
-    {%- if category == "policy work" %}
-  <p>
-    Here is a brief description of my policy work. This section includes various projects related to policy analysis, development, and implementation.
-  </p>
-  {%- endif %}
+    {%- if category == "heterogeneous agent macro" %}
+    <p style="margin-bottom: 10px;">
+      This is a collection of my coding projects centered around heterogeneous agent macroeconomic models. 
+    </p>  
+
+    <p style="margin-bottom: 10px;">
+      My work spans both policy and research domains, with a focus on developing models that investigate the implications of policy on income and wealth inequality. 
+      At <a href="https://www.impa.american.edu">IMPA</a>, I developed the Julia-lang code base that implements the core model of the institution.
+      On the research front, I have a keen interest in the latest solution methods for heterogeneous agent models, and have Julia-based implementations of some of these methodologies. 
+    </p>  
+
+    <p style="margin-bottom: 25px;">
+      <a href="https://github.com/vasudeva-ram">Pull requests</a> welcome!
+    </p>
+    {%- endif %}
+  
+    {%- if category == "other stuff" %}
+    <p>
+      Some fun projects that make my life easier. More to come (when I finally get around to cleaning those repos up)!
+    </p>
+    {%- endif %}
   
 
   {%- assign categorized_projects = site.projects | where: "category", category -%}

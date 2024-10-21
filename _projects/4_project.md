@@ -4,7 +4,7 @@ title: IMPA Model
 description: A heterogeneous agent DSGE model with overlapping generations household sector.
 img: assets/img/impa-model.png
 importance: 1
-category: policy work
+category: heterogeneous agent macro
 giscus_comments: false
 ---
 
