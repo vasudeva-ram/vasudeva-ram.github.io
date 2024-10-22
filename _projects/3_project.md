@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Newton-Raphson HANK
-description: Julia-based implementation of the Boehl (2024) method for solving HANK models with Automatic Differentiation
+description: Julia-based implementation of the Boehl (2024) method for solving HANK models using Automatic Differentiation
 img: assets/img/JVP_Large.png
 importance: 3
 category: heterogeneous agent macro

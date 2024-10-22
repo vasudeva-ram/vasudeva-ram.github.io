@@ -1,7 +1,7 @@
 ---
 layout: page
 title: IMPA Model
-description: A heterogeneous agent DSGE model with overlapping generations household sector.
+description: A heterogeneous agent DSGE model with a household sector featuring overlapping generations, uninsurable income risk, and savings in stocks and bonds
 img: assets/img/impa-model.png
 importance: 1
 category: heterogeneous agent macro
