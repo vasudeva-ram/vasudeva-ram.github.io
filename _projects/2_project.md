@@ -2,7 +2,7 @@
 layout: page
 title: Sequence Space Jacobian
 description: Julia-based implementation of the Auclert et. al. (2020) method for solving HANK models in the sequence space
-img: assets/img/jacobian.svg
+img: assets/img/SSJ_Thumbnail.png
 importance: 2
 category: heterogeneous agent macro
 giscus_comments: false

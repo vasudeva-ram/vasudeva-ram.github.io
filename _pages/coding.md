@@ -34,7 +34,7 @@ horizontal: false
   
     {%- if category == "other stuff" %}
     <p>
-      Some fun projects that make my life easier. More to come (when I finally get around to cleaning those repos up)!
+      Some fun projects that make my life easier. More to come (when I finally get around to cleaning those repos up).
     </p>
     {%- endif %}
   

@@ -591,6 +591,13 @@ footer.sticky-bottom {
   }
 
   .card {
+    height: 350px; /* Set the desired fixed height */
+    overflow: hidden; /* Hide overflow content */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; /* Center the img element horizontally */
+
     img {
       width: 100%;
     }
