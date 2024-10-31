@@ -5,4 +5,6 @@ inline: true
 related_posts: false
 ---
 
-Presenting my job market paper, ["Capacity Utilization, Markup Cyclicality, and Inflation Dynamics"](https://vasudeva-ram.github.io/assets/pdf/Capacity-Markups-Inflation.pdf) at the **Federal Reserve Bank, Philadelphia** on November 5, 2024. Joint work with [Ignacio González](https://www.ignacioglz.com/) at American University. Will post slides shortly.
+Presenting my job market paper, ["Capacity Utilization, Markup Cyclicality, and Inflation Dynamics"](https://vasudeva-ram.github.io/assets/pdf/Capacity-Markups-Inflation.pdf) at the **Federal Reserve Bank, Philadelphia** on November 5, 2024. 
+Joint work with [Ignacio González](https://www.ignacioglz.com/) at American University. 
+Will post slides shortly.
