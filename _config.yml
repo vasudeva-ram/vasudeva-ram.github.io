@@ -295,8 +295,8 @@ scholar:
   query: "@*"
   group_by: type
   group_order: ascending
-  type_order: [techreport,article]
-  type_names: {article: publications, techreport: working papers, unpublished: job market paper, misc: technical reports}
+  type_order: [techreport, unpublished, article]
+  type_names: {article: publications, techreport: working papers, unpublished: in-progress}
 
 # Display different badges withs stats for your publications
 enable_publication_badges:

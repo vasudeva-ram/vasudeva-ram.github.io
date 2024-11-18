@@ -57,7 +57,33 @@
 #       year: 2002-2006
 #       institution: University of Missouri - Kansas City
     
-  
+
+
+
+- title: Presentations / Workshops
+  type: time_table
+  contents:
+    - institution: <strong>Federal Reserve Bank - Philadelphia</strong>, <br><i>Philadelphia, PA.</i> 
+      descriptionx: Presented “Capacity Utilization, Markup Cyclicality, and Inflation Dynamics”. 
+      year: Nov 5, 2024
+    - institution: <strong>University of Chicago, Stone Center</strong>, <br><i>Chicago, IL.</i>
+      descriptionx: Conference & Summer School on Socioeconomic Opportunity and Inequality. 
+      year: Jul 22-26, 2024
+    - institution: <strong>Society of Economic Dynamics Conference</strong>, <br><i>Barcelona, Spain.</i>
+      descriptionx: Presented “Capacity Utilization, Markup Cyclicality, and Inflation Dynamics”. 
+      year: Jun 27, 2024
+    - institution: <strong>International Economics Association Conference</strong>, <br><i>Medellin, Colombia.</i>
+      descriptionx: Presented “Capacity Utilization, Markup Cyclicality, and Inflation Dynamics”.
+      year: Dec 12, 2023
+    - institution: <strong>Southern Economic Association Conference</strong>, <br><i>Fort Lauderdale, FL.</i>
+      descriptionx: Presented “The Huey Long Spending Program in Louisiana - Estimating Fiscal Multipliers during the Great Depression”.
+      year: Nov 19, 2022
+    - institution: <strong>Eastern Economic Association Conference</strong>, <br><i>Boston, MA.</i>
+      descriptionx: Presented “Market Volatility in the Presence of Price and Quantity Shading”.
+      year: Feb 29, 2020
+      
+
+
 - title: Experience
   type: time_table
   contents:
@@ -65,7 +91,10 @@
       institution: Institute for Macroeconomic & Policy Analysis (IMPA), American University, Washington DC, USA
       year: 2023-now
       description:
-        - Developing a large-scale heterogeneous agent model to analyze the effects of fiscal policy in the presence of market power
+        - <strong>Led model building and implementation</strong> of a large-scale heterogeneous agent model to analyze the effects of fiscal policy in the presence of market power.
+        - <strong>Authored policy reports and analysis</strong> focused on the aggregate and distributional impacts of tax policy proposals using the model.
+        - <strong>Supervised team of RAs</strong>, overseeing data cleaning, empirical analysis and model documentation.
+
         # - Description 2.
         # - title: Description 3.
         #   contents:
@@ -76,25 +105,26 @@
       institution: World Bank Group, Washington, D.C., USA
       year: Jun-Aug<br>2019, 2020
       description:
-        - Supported impact evaluation of pilot program aimed at improving job outcomes for smallholders in Mozambique
-        - Constructed panel dataset from baseline, midline and endline household surveys, conducting extensive data quality checks, and using econometric techniques to address attrition and measurement error
-        - Generated estimates of household income, expenditure, wealth, agricultural input use, and other key variables of interest, and conducted descriptive and econometric analysis to assess program impact
+        - <strong>Supported impact evaluation of pilot program</strong> aimed at improving job outcomes for smallholders in Mozambique.
+        - <strong>Constructed main panel dataset for analysis</strong> from three rounds of household surveys, checking data quality, and using econometric techniques to address attrition and measurement error.
+        - <strong>Conducted descriptive and econometric analysis to assess program impact</strong> by generating estimates of household income, expenditure, wealth, agricultural input use, and other key variables of interest.
         
     - title: Senior Manager, Strategy & Network Planning
       institution: Starbucks India, Mumbai, India
       year: 2014-2017
       description:
-        - Helped build and led network planning strategy Developed a GIS catchment-based model to estimate demand and identify new store opportunities.
-        - Led key strategic projects Project-managed the design, development and launch of a strategic new format of store; led strategic partnership with Vistara Airlines.	
+        - <strong>Built and led network planning strategy</strong>, developing a GIS catchment-based model to estimate demand and identify new store opportunities.
+        - <strong>Led and delivered key strategic projects</strong>, such as initiating strategic partnership with Vistara Airlines; project-managing the design, development and launch of a strategic new format of store, etc.	
+        - <strong>Supported CEO and senior leadership</strong> in developing operational plans, reports to the board; planned and coordinated operations as Chief-of-Staff to the CEO.
       
     - title: Strategy & Technology Consultant
       institution: Boston Analytics, Mumbai, India
       year: 2013-2014
       description:
-      - title: Client - Department of Economic Development, Middle Eastern country
+      - title: <strong>Client - Department of Economic Development, Middle Eastern country</strong>
         contents:
           - Designed the organizational structure of the newly established national industrial development bureau.
-      - title: Client - Leading US manufacturer of networking equipment
+      - title: <strong>Client - Leading US manufacturer of networking equipment</strong>
         contents:
         - Developed go-to-market strategy to pursue “transformational opportunities” worth $1.5 billion in Indonesia.
 
@@ -102,10 +132,10 @@
       institution: Deloitte Consulting, Boston, MA, USA
       year: 2009-2011
       description:
-      - title: Client - Department of Public Welfare - Commonwealth of Pennsylvania
+      - title: <strong>Client - Department of Public Welfare - Commonwealth of Pennsylvania</strong>
         contents:
         - Designed and executed rollout of new provider monitoring process, managing 60 coordination organizations, 8,000 healthcare providers, and 25,000 service recipients across the state.
-      - title: Client - Department of Revenue - Commonwealth of Massachusetts
+      - title: <strong>Client - Department of Revenue - Commonwealth of Massachusetts</strong>
         contents: 
         - Helped develop Request for Responses to acquire a new integrated transaction processing system that met the needs and vision of the Child Support Enforcement Division and incorporated national best practices.
 
@@ -124,3 +154,4 @@
     - name: Econ 301
       value: Intermediate Macroeconomics<br><i>Teaching Assistant, F2018, S2019, F2019, S2020</i>
       
+

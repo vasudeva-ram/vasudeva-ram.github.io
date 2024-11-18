@@ -202,14 +202,13 @@ blockquote {
 
   a {
     color: inherit;
-
+    
     &:hover {
       color: var(--global-theme-color);
       text-decoration: none;
     }
   }
 }
-
 
 // Navbar customization
 

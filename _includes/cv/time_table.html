@@ -66,6 +66,24 @@
                 {% endfor %}
               </ul>
             {% endif %}
+            {% if content.descriptionx %}
+              <div class="descriptionx-items">
+                {% for item in content.descriptionx %}
+                  <div class="descriptionx-item" style="margin-left: 1rem;">
+                    {% if item.contents %}
+                      <span class="item-title">{{ item.title }}</span>
+                      <div class="subitems" style="margin-left: 1rem;">
+                        {% for subitem in item.contents %}
+                          <div class="subitem">{{ subitem }}</div>
+                        {% endfor %}
+                      </div>
+                    {% else %}
+                      <span class="item">{{ item }}</span>
+                    {% endif %}
+                  </div>
+                {% endfor %}
+              </div>
+            {% endif %}
             {% if content.items %}
               <ul class="items">
                 {% for item in content.items %}

@@ -19,7 +19,7 @@ I am a quantitative macroeconomist with research interests in macroeconomic poli
 
 My research primarily explores the channels through which monetary and fiscal policies influence the distribution of income and wealth across the economy. You can find more information on my research in my [research statement](/assets/pdf/ResearchStatement.pdf). 
 
-I am passionate about teaching and strive to create an engaging and inclusive learning environment. 
-To read more about my teaching philosophy, please see my [teaching statement](/assets/pdf/TeachingStatement.pdf).
+<!-- I am passionate about teaching and strive to create an engaging and inclusive learning environment. 
+To read more about my teaching philosophy, please see my [teaching statement](/assets/pdf/TeachingStatement.pdf). -->
 
 ---

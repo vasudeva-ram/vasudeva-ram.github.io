@@ -19,4 +19,4 @@ giscus_comments: false
 
 At the [Institute of Macroeconomic and Policy Analysis](https://impa.american.edu/) ("IMPA"), I work on building and extending the IMPA computational model, and using the model to evaluate policy proposals.
 
-I'll share more details here shortly, but in the meantime, you can read more about the IMPA model [here](https://impa.american.edu/impa-model/)!
+I'll share more details here shortly, but in the meantime, you can read more about the IMPA model [here](https://impa.american.edu/impa-model/).
