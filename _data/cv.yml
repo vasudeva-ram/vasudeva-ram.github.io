@@ -57,6 +57,13 @@
 #       year: 2002-2006
 #       institution: University of Missouri - Kansas City
     
+- title: Research
+  type: map
+  contents:
+    - name: Research Interests
+      value: Macroeconomics, Monetary Economics, Fiscal Policy, Inequality, Heterogeneous Agent Models, Computational Economics, Economic History
+    - name: Publications & Working Papers
+      value: See my <a href="https://vasudeva-ram.github.io/research/">Research</a> page for details on my publications and working papers. 
 
 
 
