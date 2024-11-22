@@ -45,7 +45,7 @@ A **production sector** with firms that
 ## Building the Computational Model at IMPA
 When I joined the Institute for Macroeconomic Policy and Analysis (IMPA), the team had three  goals for our computational model: (1) dramatically increase the speed of the model, (2) make the code flexible enough to handle multiple model versions with minimal overhead, and (3) ensure the openness of the code for external review and collaboration. 
 
-#### Speed: From Days to Minutes
+#### Days to Minutes
 The old MATLAB code base, which followed a simulation-based approach to the solution, was proving to be a bottleneck in our research, limiting the scope of questions we could address.
 
 And so over the last year, I
@@ -59,7 +59,7 @@ We've seen some pretty remarkable results.
 A Laffer curve simulation with 17 data points, which took over a day to compute in the old code, now takes <u>just 7 minutes</u>. 
 This means we are able to move faster, try more things, and explore more complex questions without being constrained by computational efficiency.
 
-#### Flexibility: A Leaner, More Nimble Codebase
+#### Leaner, More Nimble Code
 The move to Julia brought more than just speed. 
 Julia's just-in-time (JIT) compilation and multiple dispatch enable functions to adapt dynamically based on input types, <u>reducing code redundancy</u> and making the codebase leaner and more maintainable.
 Tests are so much easier to write!
@@ -69,7 +69,7 @@ See my post [here](https://vasudeva-ram.github.io/projects/3_project/) for a mor
 In a nutshell, this approach decouples the *mechanical aspects* of solving models from *model-specific features*, making it much easier to adapt the framework for future models. 
 Once complete, we'll be able to accommodate new models and variants with minimal adjustments, significantly enhancing our research productivity.
 
-#### Openness: Collaboration Without Barriers
+#### Collaboration
 One thing I love about IMPA is it's commitment to **"radical transparancy"**.
 And so I've developed the **entire codebase on GitHub**.
 The repository is currently private, and will be made public once the testing suite is complete.
