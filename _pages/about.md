@@ -16,7 +16,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 I am a quantitative macroeconomist with research interests in macroeconomic policy, household inequality, and financial trading exchanges. 
-I am a Postdoctoral Fellow at the [Institute for Macroeconomic and Policy Analysis](https://impa.american.edu/) and currently on the 2024-2025 Economics Job Market. 
+I am a Postdoctoral Fellow at the [Institute for Macroeconomic and Policy Analysis](https://impa.american.edu/). 
 
 My research primarily explores the channels through which monetary and fiscal policies influence the distribution of income and wealth across the economy. 
 I also work extensively on agent-based models of order-driven exchanges.
