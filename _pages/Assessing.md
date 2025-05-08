@@ -28,6 +28,6 @@ This brief provides a new analysis of the macroeconomic effects of raising taxes
 </p>
 
 <p style="margin-bottom: 30px;margin-left: 20px;">
-Politico (June 10, 2024).
+<u>Politico</u> (June 10, 2024).
 <a href="https://tinyurl.com/PoliticoCoverage">"Will there be reaching across the aisle?"</a>, Becker, B.
 </p>
