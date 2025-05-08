@@ -23,9 +23,9 @@ This brief provides an analysis of a Republican proposal to repeal the clean ene
 </p>
 
 <p style="margin-bottom: 10px;margin-left: 20px;">
-Bloomberg (March 11, 2024). <a href="https://tinyurl.com/BloombergCoverage">“HILL TAX BRIEF: Details Due on Biden Budget Tax Hikes, IRS Funds”</a>, Jagoda, N.
+<u>Bloomberg</u> (March 11, 2024). <a href="https://tinyurl.com/BloombergCoverage">“HILL TAX BRIEF: Details Due on Biden Budget Tax Hikes, IRS Funds”</a>, Jagoda, N.
 </p>
 
 <p style="margin-bottom: 30px;margin-left: 20px;">
-Politico (March 11, 2024). <a href="https://www.politico.com/newsletters/weekly-tax/2024/03/11/whats-in-a-deadline-00146208">“What's in a Deadline?”</a>, Becker, B.
+<u>Politico</u> (March 11, 2024). <a href="https://www.politico.com/newsletters/weekly-tax/2024/03/11/whats-in-a-deadline-00146208">“What's in a Deadline?”</a>, Becker, B.
 </p>
