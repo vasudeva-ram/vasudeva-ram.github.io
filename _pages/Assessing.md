@@ -23,7 +23,7 @@ This brief provides a new analysis of the macroeconomic effects of raising taxes
 </p>
 
 <p style="margin-bottom: 10px;margin-left: 20px;">
-The Hill (June 11, 2024). <a href="https://thehill.com/homenews/4715574-bidens-capital-gains-taxes-would-boost-economic-equality-analysis/mlite/">"Biden’s capital gains taxes would boost economic equality: Analysis"</a>, Burns, T.
+<u>The Hill </u> (June 11, 2024). <a href="https://thehill.com/homenews/4715574-bidens-capital-gains-taxes-would-boost-economic-equality-analysis/mlite/">"Biden’s capital gains taxes would boost economic equality: Analysis"</a>, Burns, T.
 
 </p>
 
