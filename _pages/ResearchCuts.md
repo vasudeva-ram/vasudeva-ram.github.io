@@ -23,13 +23,13 @@ This brief describes a new analysis of the macroeconomic costs of cutting federa
 </p>
 
 <p style="margin-bottom: 10px;margin-left: 20px;">
-Casselman, B. (April 30, 2025). <a href="https://www.nytimes.com/2025/04/30/business/trump-science-funding-cuts-economy.html?smid=nytcore-ios-share&referringSource=articleShare">“Trump’s Cuts to Science Funding Could Hurt U.S. Economy, Study Shows”</a>, The New York Times.
+The New York Times (April 30, 2025). <a href="https://www.nytimes.com/2025/04/30/business/trump-science-funding-cuts-economy.html?smid=nytcore-ios-share&referringSource=articleShare">“Trump’s Cuts to Science Funding Could Hurt U.S. Economy, Study Shows”</a>, Casselman, B.
 </p>
 
 <p style="margin-bottom: 10px;margin-left: 20px;">
-Nietzel, M. T. (May 01, 2025). <a href="https://www.forbes.com/sites/michaeltnietzel/2025/05/01/trumps-college-research-cuts-could-trim-gdp-by-at-least-38-study-finds/">“Trump’s College Research Cuts Could Trim GDP By At Least 3.8%, Study Finds”</a>, Forbes.
+Forbes (May 01, 2025). <a href="https://www.forbes.com/sites/michaeltnietzel/2025/05/01/trumps-college-research-cuts-could-trim-gdp-by-at-least-38-study-finds/">“Trump’s College Research Cuts Could Trim GDP By At Least 3.8%, Study Finds”</a>, Nietzel, M. T.
 </p>
 
 <p style="margin-bottom: 30px;margin-left: 20px;">
-Brumfiel, G. (May 08, 2025). <a href="https://www.npr.org/2025/05/08/nx-s1-5383918/economists-trump-research-science-cuts-gdp-recession">“Economists warn Trump's research cuts could have dire consequences for GDP”</a>, NPR.
+NPR (May 08, 2025). <a href="https://www.npr.org/2025/05/08/nx-s1-5383918/economists-trump-research-science-cuts-gdp-recession">“Economists warn Trump's research cuts could have dire consequences for GDP”</a>, Brumfiel, G.
 </p>
