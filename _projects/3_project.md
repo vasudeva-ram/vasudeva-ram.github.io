@@ -34,7 +34,7 @@ Most usefully, all we need for this solution procedure is the set of _aggregate_
 Thus, it side-steps the whole business of specifying the DAG, reducing the model dimensionality etc.
 
 The usual problem with naively implementing the Newton-Raphson method in HANK models is that the Jacobian is extremely expensive to calculate, making the iterative process very inefficient.
-The methodology presented in this working paper uses innovations in the automatic differentiation (AD) lietarture to overcome this issue. 
+The methodology presented in this working paper uses innovations in the automatic differentiation (AD) literature to overcome this issue. 
 While the Jacobian itself is expensive to calculate even with AD, AD can compute an intermediary object called a [Jacobian-Vector Product](https://uvadl2c.github.io/lectures/neural_network_dynamical/part4.pdf) (or JVP) very cheaply. 
 Boehl's method provides a very clever way to iteratively use the JVPs to approximate the Jacobian-related values that the Newton-Raphson method needs. 
 Combined with other advances made in solving HANK models in the sequence space, finding the perfect-foresight solutions even for very large models is impressively fast.
