@@ -1,13 +1,55 @@
 ---
 layout: page
-title: coding
-permalink: /coding/
-description: current coding projects and associated github repositories
+title: teaching
+permalink: /teaching/
+description: courses I teach at CIDE, with syllabi and class materials
 nav: true
-nav_order: 4
-display_categories: [heterogeneous agent macro, other stuff]
+nav_order: 2
+display_categories: [fall 2026]
 horizontal: false
 ---
+
+<!-- One course card per row (overrides the 250px grid width and 350px card height from _base.scss on this page only) -->
+<style>
+  .projects .grid-sizer,
+  .projects .grid-item {
+    width: 100%;
+  }
+
+  .projects .card.course-card {
+    height: 117px; /* one third of the theme's 350px project card */
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 8px;
+  }
+
+  .projects .card.course-card .course-thumb {
+    width: 160px;
+    height: 100%;
+    object-fit: cover;
+    border: 1px solid #000;
+    flex-shrink: 0;
+  }
+
+  .projects .card.course-card .card-body {
+    padding: 0 0 0 16px;
+  }
+
+  .projects .card.course-card .card-title {
+    font-size: 1.15rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .projects .card.course-card .card-text {
+    margin-bottom: 0.25rem;
+  }
+
+  .projects .card.course-card .course-timing {
+    font-size: 0.85rem;
+    color: var(--global-text-color-light);
+  }
+</style>
 
 <!-- pages/projects.md -->
 <div class="projects">
@@ -16,28 +58,11 @@ horizontal: false
   {%- for category in page.display_categories %}
   <h2 class="category">{{ category }}</h2>
 
-    {%- if category == "heterogeneous agent macro" %}
+    {%- if category == "fall 2026" %}
     <p style="margin-bottom: 10px;">
-      This is a collection of my coding projects centered around heterogeneous agent macroeconomic models. 
+      Teaching materials for the Fall 2026 semester at CIDE.
     </p>  
-
-    <p style="margin-bottom: 10px;">
-      My work spans both policy and research domains, with a focus on developing models that investigate the implications of policy on income and wealth inequality. 
-      At <a href="https://www.impa.american.edu">IMPA</a>, I developed the Julia-lang code base that implements the core model of the institution.
-      On the research front, I have a keen interest in the latest solution methods for heterogeneous agent models, and have Julia-based implementations of some of these methodologies. 
-    </p>  
-
-    <p style="margin-bottom: 25px;">
-      <a href="https://github.com/vasudeva-ram">Pull requests</a> welcome!
-    </p>
     {%- endif %}
-  
-    {%- if category == "other stuff" %}
-    <p>
-      Some fun projects that make my life easier. More to come (when I finally get around to cleaning those repos up).
-    </p>
-    {%- endif %}
-  
 
   {%- assign categorized_projects = site.projects | where: "category", category -%}
   {%- assign sorted_projects = categorized_projects | sort: "importance" %}
@@ -53,7 +78,7 @@ horizontal: false
   {%- else -%}
   <div class="grid">
     {%- for project in sorted_projects -%}
-      {% include projects.html %}
+      {% include course_card.html %}
     {%- endfor %}
   </div>
   {%- endif -%}
@@ -74,7 +99,7 @@ horizontal: false
   {%- else -%}
   <div class="grid">
     {%- for project in sorted_projects -%}
-      {% include projects.html %}
+      {% include course_card.html %}
     {%- endfor %}
   </div>
   {%- endif -%}

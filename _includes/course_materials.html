@@ -1,0 +1,30 @@
+<!-- _includes/course_materials.html -->
+<!-- Auto-lists course materials from an assets/course-materials subfolder.
+     Usage: {% raw %}{% include course_materials.html folder="assets/course-materials/<course>" %}{% endraw %}
+     Any PDF whose name contains "Syllabus" is listed as the syllabus;
+     PDFs whose names start with "Class-" are listed as presentations, sorted by filename
+     (zero-pad the class number, e.g. Class-01, so they sort correctly). -->
+{%- assign course_files = site.static_files | where_exp: "file", "file.path contains include.folder" | where_exp: "file", "file.extname == '.pdf'" -%}
+{%- assign syllabi = course_files | where_exp: "file", "file.name contains 'Syllabus'" -%}
+{%- assign presentations = course_files | where_exp: "file", "file.name contains 'Class-'" | sort: "name" -%}
+
+<h2>Course Materials</h2>
+
+{%- if syllabi.size > 0 %}
+<ul>
+  {%- for file in syllabi %}
+  <li><a href="{{ file.path | relative_url }}">Syllabus (PDF)</a></li>
+  {%- endfor %}
+</ul>
+{%- endif %}
+
+<h3>Class Presentations</h3>
+{%- if presentations.size > 0 %}
+<ul>
+  {%- for file in presentations %}
+  <li><a href="{{ file.path | relative_url }}">{{ file.basename | replace: "_", " · " | replace: "-", " " }}</a></li>
+  {%- endfor %}
+</ul>
+{%- else %}
+<p>Presentations will be posted here as the semester progresses.</p>
+{%- endif %}

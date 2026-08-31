@@ -1,0 +1,20 @@
+<!-- _includes/course_card.html -->
+<!-- Compact horizontal card for course listings (used by _pages/teaching.md).
+     Reads title, description, img, and timing from the project's frontmatter. -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="{{ project.url | relative_url }}">
+    <div class="card hoverable course-card">
+      {%- if project.img %}
+      <img class="course-thumb" src="{{ project.img | relative_url }}" alt="{{ project.title }} thumbnail" />
+      {%- endif %}
+      <div class="card-body">
+        <h3 class="card-title text-lowercase">{{ project.title }}</h3>
+        <p class="card-text">{{ project.description }}</p>
+        {%- if project.timing %}
+        <p class="card-text course-timing"><i class="fa-solid fa-clock"></i> {{ project.timing }}</p>
+        {%- endif %}
+      </div>
+    </div>
+  </a>
+</div>
